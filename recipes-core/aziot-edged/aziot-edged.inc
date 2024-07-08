@@ -9,8 +9,6 @@ SYSTEMD_SERVICE:${PN} = "aziot-edged.service"
 
 SRC_URI += "file://aziot-edged.service \
             file://iotedge.conf \
-            file://0001-Change-panic-strategy-to-unwind.patch \
-            file://0002-Fix-aziot-dependencies.patch \
 "
 
 do_install () {
